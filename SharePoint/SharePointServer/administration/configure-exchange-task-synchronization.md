@@ -36,7 +36,7 @@ What you need to know before you begin:
     
 - For discovering task additions and changes, you need to have the **Search service application** running as well, and set for **incremental or continuous** crawling. For more information, you can read [Create and configure a Search service application in SharePoint Server 2016](../search/create-and-configure-a-search-service-application.md).
     
-- It's very important that you have **Secure Sockets Layer (SSL)** running for your SharePoint web application, this is required for security reasons (if you're browsing to a site where the URL starts with http, that's using SSL). If you're not familiar with SSL, the [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx) can help. If you're in a test environment and you're using **self-SSL**, I've put the steps for this at the bottom of this article. 
+- It's very important that you have **Secure Sockets Layer (SSL)** running for your SharePoint web application, this is required for security reasons (if you're browsing to a site where the URL starts with https, that's using SSL). If you're not familiar with SSL, the [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx) can help. If you're in a test environment and you're using **self-SSL**, I've put the steps for this at the bottom of this article. 
     
 - You'll probably want to have **MySites** enabled for SharePoint, to see tasks in one place in SharePoint. You can also view them in **Outlook**. 
     
