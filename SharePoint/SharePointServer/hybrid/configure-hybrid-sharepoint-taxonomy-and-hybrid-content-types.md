@@ -78,7 +78,7 @@ $credential = Get-Credential
 ```
 
 ```
-Copy-SPTaxonomyGroups -LocalTermStoreName "<ManagedMetadataServiceApplicatoin>" -LocalSiteUrl "<OnPremisesSiteURL>" -RemoteSiteUrl "SharePointOnlineSiteURL" -GroupNames "Group1","Group2" -Credential $credential
+Copy-SPTaxonomyGroups -LocalTermStoreName "<ManagedMetadataServiceApplication>" -LocalSiteUrl "<OnPremisesSiteURL>" -RemoteSiteUrl "SharePointOnlineSiteURL" -GroupNames "Group1","Group2" -Credential $credential
 ```
 
 For example:
